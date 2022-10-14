@@ -1,0 +1,47 @@
+.carrinho,
+.avatar {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+
+.avatar-carrinho {
+    margin-right: 10px;
+}
+
+
+.side-bar {
+    height: 100vh;
+    position: relative;
+    bottom: 145px;
+    display: flex;
+}
+
+.side-bar-ativo {
+    height: 85vh;
+    position: relative;
+    bottom: 148px;
+    -webkit-box-shadow: -2px 7px 9px -5px rgba(0, 0, 0, 0.89);
+    box-shadow: -2px 7px 9px -5px rgba(0, 0, 0, 0.89);
+    width: 200px;
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    flex-direction: column;
+
+}
+
+
+.valorSide,
+.quantSide {
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagem-avatar {
+    margin-bottom: 10px;
+}
+

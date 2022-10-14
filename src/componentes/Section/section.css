@@ -1,0 +1,325 @@
+.section {
+    display: flex;
+    justify-content: right;
+    gap: 17%;
+    padding-top: 60px;
+}
+
+
+.resultado-botao {
+    display: flex;
+    align-items: center;
+}
+
+.valor-total-botao {
+    color: black;
+    margin-left: 65px;
+    margin-top: 0;
+}
+
+.span-valor {
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.resultado-botao > h4  {
+    color: black;
+    font-size: 18px;
+    margin: 0;
+}
+
+.Nav-Side {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 5%;
+    align-items: start;
+}
+
+nav,
+.links-header,
+.logo-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 5px;
+}
+
+.imagem-grande {
+    display: flex;
+    align-items: center;
+}
+
+.img-pequena {
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.img-pequena-ativa {
+    border: 2px solid red;
+    
+}
+
+.imagem-pequenas {
+    gap: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.links-header li {
+    cursor: pointer;
+}
+
+.links-header li:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+
+.links-header li:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.sider-resultado {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.sider-resultado.sider-ativado {
+    -webkit-box-shadow: -2px -8px 5px -1px rgba(0, 0, 0, 0.89);
+    box-shadow: -1px -1px 1px -1px rgba(0, 0, 0, 0.89);
+    padding-left: 56px;
+    border-radius: 1px
+}
+
+.sider-resultado.sider-desativado {
+    box-shadow: none;
+}
+
+
+.logo-user {
+    padding-right: 50px;
+}
+
+.logo-user>img {
+    cursor: pointer;
+
+}
+
+.logo-user>img:hover {
+    transform: scale(1.5);
+}
+
+hr {
+    color: hsl(219, 9%, 45%);
+    width: 100px;
+}
+
+li {
+    color: hsl(219, 9%, 45%);
+}
+
+
+
+
+.res-carrinho {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    display: flex
+}
+
+#carrinho {
+    height: auto;
+    width: 35px;
+}
+
+
+.div-carrinho {
+    display: flex;
+    align-items: center;
+}
+
+.div-carrinho p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.div-resultado-carrinho h2 {
+    font-size: 20px;
+}
+
+
+.container-principal {
+    display: flex;
+    padding-top: 120px;
+    gap: 120px;
+}
+
+
+
+
+.logo {
+    display: flex;
+    gap: 40px;
+    width: 50%;
+    justify-content: right;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens-pequenas {
+    gap: 25px;
+    display: flex;
+    padding-top: 15px;
+}
+
+
+
+.img,
+.img-pqn {
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.imagem-selecionada {
+    border: 5px solid red;
+}
+
+.valor-sider {
+    text-align: center;
+    position: absolute;
+    padding-top: 70px;
+    right: 2px;
+    height: 120vh;
+    -webkit-box-shadow: -2px 7px 9px -5px rgba(0, 0, 0, 0.89);
+    box-shadow: -2px 7px 9px -5px rgba(0, 0, 0, 0.89);
+    width: 200px;
+    top: 39px;
+}
+
+
+.span-company {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+    font-size: 12px;
+}
+
+.textos {
+    padding-top: 50px;
+    width: 28vw;
+}
+
+.nome-produto {
+    font-size: 30px;
+}
+
+.descricao-produto {
+    color: hsl(220, 14%, 75%);
+    font-size: 16px;
+    width: 85%;
+}
+
+.preco-produto {
+    gap: 20px;
+}
+
+.preco-produto,
+.calcular-produto {
+    display: flex;
+    align-items: center;
+}
+
+.calcular-produto .calculo,
+.calcular-produto .btn {
+    display: flex;
+    align-items: center;
+}
+
+.preco-produto .valor {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.preco-produto .porcentagem {
+    color: hsl(26, 100%, 55%);
+    padding: 3px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.desconto-produto {
+    color: hsl(220, 14%, 75%);
+    font-weight: bold;
+}
+
+.calcular-produto {
+    gap: 80px;
+    padding-left: 25px;
+}
+
+.calcular-produto .calculo {
+    border-radius: 8px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    width: 50px;
+    gap: 25px;
+    font-size: 34px;
+}
+
+.calcular-produto .calculo .zero {
+    color: black;
+    font-size: 14px;
+}
+
+
+.check {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+}
+
+input {
+    visibility: hidden;
+}
+
+input[type=radio]:checked+label>img {
+    border: 4px solid #F94C66;
+}
+
+.label {
+    position: relative;
+}
+
+.calcular-produto .btn {
+    background-color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    width: 230px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    color: #ffffff;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+
+.soma-sub {
+    cursor: pointer;
+}

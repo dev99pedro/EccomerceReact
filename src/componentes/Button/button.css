@@ -1,0 +1,20 @@
+.preco-produto {
+    gap: 20px;
+}
+
+.preco-produto,
+.calcular-produto {
+    display: flex;
+    align-items: center;
+}
+
+.calcular-produto .calculo,
+.calcular-produto .btn {
+    display: flex;
+    align-items: center;
+}
+
+.preco-produto .valor {
+    font-size: 28px;
+    font-weight: bold;
+}
