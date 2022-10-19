@@ -2,6 +2,8 @@ import './nav.css'
 
 
 
+
+
 const Nav = ({link}) => {
     return(
         <div className="nav-header">

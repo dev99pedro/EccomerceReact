@@ -8,6 +8,11 @@
     align-items: center;
 }
 
+ul li:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .nav{
     display: flex;
     gap: 70px;

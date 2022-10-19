@@ -57,8 +57,12 @@ nav,
     cursor: pointer;
 }
 
+
+
 .img-pequena-ativa {
     border: 2px solid red;
+    border-radius: 12px;
+    cursor: pointer;
     
 }
 

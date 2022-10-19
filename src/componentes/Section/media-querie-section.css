@@ -1,0 +1,132 @@
+@media (max-width: 1300px) {
+    .section {
+        gap: 5%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .Nav-Side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        gap: 17%;
+    }
+
+    .textos {
+        width: 100%;
+        text-align: center;
+    }
+
+    .preco-produto,
+    .calcular-produto {
+        justify-content: center;
+    }
+
+    .descricao-produto>p {
+        font-size: 17px;
+    }
+
+    .nav-header {
+        justify-content: start;
+    }
+
+    .resultado-botao {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .nav {
+        gap: 25px;
+    }
+
+    .section {
+        gap: unset;
+    }
+}
+
+@media (max-width: 700px) {
+    .side-bar-ativo {
+        display: none;
+        
+    }
+
+    .imagem-avatar {
+        display: none;
+    }
+
+    .nav-header {
+        justify-content: center;
+    }
+
+    .nome-produto>h2 {
+        font-size: 28px;
+    }
+
+    .descricao-produto {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .descricao-produto>p {
+        width: 80%;
+    }
+}
+
+@media (min-width: 360px ) and (max-width: 500px) {
+
+    .imagem-grande {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .side-bar-ativo {
+        display: none;
+        
+    }
+
+    .imagem-avatar {
+        display: none;
+    }
+
+
+    .imagem-grande>img {
+        width: 90%;
+
+    }
+
+    .imagem-pequenas {
+        gap: 10px;
+        display: flex;
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+   .nav  li {
+    font-size: 19px;
+   }
+
+    .nav {
+        padding: 0;
+        gap: 8px;
+    }
+
+    .calcular-produto .btn {
+        width: 180px;
+    }
+
+    .nav-header {
+        justify-content: center;
+        width: 100%;
+    }
+}
