@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EccomerceReact/static/css/main.e7f829c6.css",
-    "main.js": "/EccomerceReact/static/js/main.5bbe69a0.js",
+    "main.css": "/EccomerceReact/static/css/main.c0e26748.css",
+    "main.js": "/EccomerceReact/static/js/main.c3e84285.js",
     "static/js/787.df4da3f9.chunk.js": "/EccomerceReact/static/js/787.df4da3f9.chunk.js",
     "static/media/image-product-2.jpg": "/EccomerceReact/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
     "static/media/image-product-1.jpg": "/EccomerceReact/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
@@ -10,12 +10,12 @@
     "static/media/carrinho.png": "/EccomerceReact/static/media/carrinho.419a9f1ede911942be5a.png",
     "index.html": "/EccomerceReact/index.html",
     "static/media/icon-cart.svg": "/EccomerceReact/static/media/icon-cart.539ec608f50e707c94d583ec11acf99d.svg",
-    "main.e7f829c6.css.map": "/EccomerceReact/static/css/main.e7f829c6.css.map",
-    "main.5bbe69a0.js.map": "/EccomerceReact/static/js/main.5bbe69a0.js.map",
+    "main.c0e26748.css.map": "/EccomerceReact/static/css/main.c0e26748.css.map",
+    "main.c3e84285.js.map": "/EccomerceReact/static/js/main.c3e84285.js.map",
     "787.df4da3f9.chunk.js.map": "/EccomerceReact/static/js/787.df4da3f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7f829c6.css",
-    "static/js/main.5bbe69a0.js"
+    "static/css/main.c0e26748.css",
+    "static/js/main.c3e84285.js"
   ]
 }
