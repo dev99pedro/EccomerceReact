@@ -54,7 +54,7 @@ const Section = () => {
                             <img className={toggle === 1 ? 'img-pequena-ativa' : 'img-pequena'} width="100" onClick={() => clicar(1)} onMouseOver={() => setImage(IMAGES.ImgProd1)} height="auto" src={IMAGES.ImgTh1} alt="carrinho1" />
                             <img className={toggle === 2 ? 'img-pequena-ativa' : 'img-pequena'} width="100" onClick={() => clicar(2)} onMouseOver={() => setImage(IMAGES.ImgProd2)} height="auto" src={IMAGES.ImgTh2} alt="carrinho2" />
                             <img className={toggle === 3 ? 'img-pequena-ativa' : 'img-pequena'} width="100" onClick={() => clicar(3)} onMouseOver={() => setImage(IMAGES.ImgProd3)} height="auto" src={IMAGES.ImgTh3} alt="carrinho3" />
-                            <img className={toggle === 4 ? 'img-pequena-ativa' : 'img-pequena'} width="100" onClick={() => clicar(5)} onMouseOver={() => setImage(IMAGES.ImgProd4)} height="auto" src={IMAGES.ImgTh4} alt="carrinho4" />
+                            <img className={toggle === 4 ? 'img-pequena-ativa' : 'img-pequena'} width="100" onClick={() => clicar(4)} onMouseOver={() => setImage(IMAGES.ImgProd4)} height="auto" src={IMAGES.ImgTh4} alt="carrinho4" />
                         </div>
                     </div>
                     <div className="textos">
